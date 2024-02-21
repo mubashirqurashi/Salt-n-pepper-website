@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+
+* {
+  background-color:black;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+header img {
+  height: 85px;
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+nav {
+    background: none;
+  margin-top: 25px;
+  position: relative;
+  top: 30px;
+  left: 150px;
+}
+nav a {
+  color: #ffff;
+  text-decoration: none;
+  padding: 0px 20px 0px 0px;
+  font-family: "Forum", serif;
+  font-size: 1.2rem;
+  transition: 1s ease;
+}
+nav a:hover {
+  transform: scale(1.1);
+  color: red;
+}
+.button-one {
+  border: 1px solid white;
+  color: white;
+  margin: 25px 0px 5px 30px;
+  padding:18px 20px 5px 20px ;
+  border-radius: 50px;
+
+}
+.button-two {
+  position: relative;
+  top: 25px;
+  right: 100px;
+  height: fit-content;
+  padding: 10px 10px 20px 10px;
+  border-radius: 50px;
+  color: #ffff;
+  background-color: rgb(214, 20, 20);
+  border: none; 
+}
+.button-two img {
+  height: 25px;
+  background-color: rgb(218, 24, 24);
+  position: relative;
+  top: 6px;
+  left: 2px;
+}
+section {
+    margin-top: 20px;
+}
+section img {
+    width: 153.5vh;
+}
+section h1 {
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+}
+.box-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.box {
+  height: 400px;
+  padding: 10px;
+}
+.box img {
+  width: 250px;
+  height: 350px;
+}
+.box h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.model-content {
+  color: white;
+  position: relative;
+  
+}
+.model-content h1{
+  width:60%;
+  font-size: 1.5rem;
+  position: relative;
+  top: 50px;
+  right:-100px;
+  letter-spacing: 4px;
+  color: rgb(167, 24, 24);
+}
+.model-content h2{
+  width:60%;
+  margin-top: 20px;
+  font-size: 2.5rem;
+  position: relative;
+  top: 50px;
+  right:-100px;
+}
+.model-content p{
+  font-family: sans-serif;
+  color: #aaaa;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  position: relative;
+  top: 60px;
+  right:-100px;
+  width: 70%;
+  text-align: justify;
+}
+.click-button {
+  border: none;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  background-color:#aaaa;
+  padding: 10px 10px 15px 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  color: white;
+  background-color:  rgb(167, 24, 24);
+
+}
+.click-button img {
+  height: 20px;
+  background-color: rgb(167, 24, 24);
+  position: relative;
+  top: 5px;
+}
+.body-section {
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-evenly;
+ margin-bottom: 100px;
+}
+.box-start {
+  padding-left: 20px;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+.box-start img{
+  border-radius: 10px;
+  background-size: cover;
+  height: 250px;
+  width: 300px;
+}
+.box-start h3 {
+  font-family: sans-serif;
+  padding: 10px;
+}
+.box-start p {
+  color:#aaa;
+  width: 300px;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color:rgb(201, 19, 19) ;
+  color: white;
+}
+.end-content {
+  display: flex;
+  justify-content: space-around;
+}
+.end-content img{
+  width: 300px;
+  border-radius: 5px;
+}
+.logo-discruption {
+  margin-top: 20px;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.discruption-content img{
+  width: 150px;
+}
+.discruption-content p {
+  color: gray;
+  width: 300px;
+  text-align: justify;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+.discruption-content h4 {
+  margin: 10px 0px;
+  color: gray;
+}
+.about-site {
+  color: gray;
+  font-family: sans-serif;
+  line-height: 3;
+  margin-top: 10px;
+}
+footer {
+  margin-top: 50px;
+}
+.footer-icons {
+  margin-top: 20px;
+}
+.footer-icons img{
+  margin-top: 20px;
+  height: 40px;
+}
